@@ -53,7 +53,7 @@ align-items: center;
 }
 
 
-#bottom .bar:hover {
+#bottom .fa:hover {
 cursor: pointer;
 color: plum;
 transition: 0.3s ease;
