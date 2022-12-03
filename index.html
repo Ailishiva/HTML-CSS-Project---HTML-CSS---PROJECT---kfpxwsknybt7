@@ -6,32 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS PROJECT</title>
     <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="https://fontawesome.com/icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <script src="App.js" defer></script>
 </head>
 <body>
+    <div class="main">
     <div class="container">
-        <div class="images">
-           <img src="Home.jpg" alt="img">
+        <div class="screen">
+           <img src="Home.jpg" class="content show" alt="homeimg">
+           <img src="work.jpg" class="content" alt="work">
+           <img src="blog.jpg" class="content" alt="blog">
+           <img src="About-us.jpg" class="content" alt="About">
+           
+           <nav>
+            <ul>
+                <li class="active">
+                    <i class="fa fa-home"></i>
+                    <p>Home</p>
+                    </li>
+                    <li>
+        
+                    <i class="fa fa-box"></i>
+                    <p>Work</p>
+                    </li>
+                    <li>
+                    <i class="fa fa-envelope"></i>
+                    <p>Blog</p>
+                    </li>
+                    <li>
+                    <i class="fa fa-globe"></i>
+                    <p>About us</p>
+                    </li>
+
+                </ul>
+
+           </nav>
+
+
+
         </div>
-
-        <div id="bottom">
-            <div class="fa fa-home">
-                <h6>Home</h6>
-            </div>
-            <div class="fa fa-suitcase" onclick="submit()">
-                <h6>Work</h6>
-            </div>
-            <div  class="fa fa-globe" onclick="replace()">
-                <h6>Blog</h6>
-            </div>
-            <div class="fa fa-group" onclick="about()">
-                 <h6>About us</h6>
-            </div>
         </div>
-
-    </div>
-
 </body>
 </html>
